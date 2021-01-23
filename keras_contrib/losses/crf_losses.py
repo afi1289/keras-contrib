@@ -1,8 +1,3 @@
-import tensorflow.compat.v1 as tf  
-tf.disable_v2_behavior()  
-tf.compat.v1.train.Optimizer
-
-
 from keras import backend as K
 from keras.losses import categorical_crossentropy
 from keras.losses import sparse_categorical_crossentropy
