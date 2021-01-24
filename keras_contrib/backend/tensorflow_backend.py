@@ -5,7 +5,7 @@ try:
 except ImportError:
     import tensorflow.contrib.ctc as ctc
     
-from tensorflow.keras import backend as K #added by me 
+from tensorflow.python.keras import backend as K #added by me 
 #import keras.backend as K
 
 py_all = all
